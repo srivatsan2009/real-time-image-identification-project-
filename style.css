@@ -32,19 +32,51 @@ animation-direction:alternate;
 
 .heading_div2 {
 font-size: 20px;
-animation: 0.1s infinite;
+animation: example2 5s infinite;
 animation-direction: alternate;
 }
 
-@keyframes example{
+@keyframes example2{
 0%   {background-color: red;}
 25%  {background-color: yellow;}
 50%  {background-color: blue;}
 100% {background-color: green;}
-from{animation-timing-function: ease-in-out};
-to{animation-timing-function: step-end};
+from{margin-left: 300px };
+to{margin-right: 300px};
+from{color: gold
+red green yellow}
+to{color: goldenrod;}
 }
 
-.background {
-background-image:"download.jpg";
+.result_tag {
+font-size: 20px;
+box-shadow: 5px 5px 6px blueviolet;
+ }
+    
+#footer {
+font-size: 20px;
+color:darkorange;
+font-style: italic;
+width:100%;
+text-align: center;
+text-emphasis: filled double-circle darkorange;
+-webkit-text-emphasis: filled double-circle darkorange;
+position: fixed;
+bottom: 0;
+background-color: blueviolet;
+}
+    
+canvas {
+margin-top: 100px;
+ border: 10px groove goldenrod;
+ box-shadow: 6px 6px 9px goldenrod;
+}
+
+body {
+animation: example3 120s infinite;
+}
+
+@keyframes example3 {
+from{background-image:URL("background2.jpg")}
+to{background-image: URL("backgound3.jpg")};
 }
