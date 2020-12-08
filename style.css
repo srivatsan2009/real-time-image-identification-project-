@@ -1,0 +1,50 @@
+.heading {
+font-size: 25px;
+width:100%;
+margin:0px;
+box-shadow:5px 5px 5px magenta;
+animation: example1 2s infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes example1{
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: orangered;}
+100% {background-color: green;}
+from{animation-timing-function: ease-in-out;};
+to{animation-timing-function: ease-in};
+}
+.heading_div {
+float:none;
+background-color: yellowgreen;
+padding:10px;
+border-radius:20px;
+margin-bottom: 10px;
+animation:example 1s infinite;
+animation-direction:alternate;
+}
+@keyframes example{
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+}
+
+.heading_div2 {
+font-size: 20px;
+animation: 0.1s infinite;
+animation-direction: alternate;
+}
+
+@keyframes example{
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+from{animation-timing-function: ease-in-out};
+to{animation-timing-function: step-end};
+}
+
+.background {
+background-image:"download.jpg";
+}
